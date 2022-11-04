@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+
+* {
+  font-family: sans-serif;
+  color: white;
+  box-sizing: border-box;
+}
+
+.banner{
+  background-image: url('https://arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/QQWVSJ6MDVGKRELX455KIABEEY.gif');
+  height: 200px;
+  background-position: 45% 33%;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Pangolin", sans-serif;
+  font-size: 3rem;
+}
+h3 {
+  font-family: "Pangolin", sans-serif;
+  font-size: 1.8rem;
+}
+
+input {
+  background: #221414;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  border: 0;
+  width: 100%;
+  height: 40px;
+  font-size: 1rem;
+  padding: 10px;
+  outline: 0;
+}
+
+
+
+.col-md-6 {
+  padding: 5px;
+  width: 100%;
+}
+.col-sm-4 {
+  padding: 5px;
+  width: 100%;
+}
+.text-center {
+  text-align: center;
+}
+
+.container {
+  padding: 15px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 579px;
+  }
+  .col-sm-4 {
+    width: 33.333%;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-4 {
+    width: 33.333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 976px;
+  }
+}
